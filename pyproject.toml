@@ -118,7 +118,7 @@ readme = {file = ["README.rst", "CHANGELOG.rst"], content-type = "text/x-rst"}
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["event_routing_backends", "event_routing_backends.*"]
-exclude = ["*tests"]
+exclude = ["*tests*"]
 
 [tool.setuptools.exclude-package-data]
 "*" = ["tests*", "*.tests*", "spec*", "*.spec*"]
